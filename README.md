@@ -1,22 +1,29 @@
 # PDF Merger
 
-A Python program that combines multiple PDF files into a single PDF file.
+A Python program that combines multiple PDF files into a single PDF document. The program allows users to enter PDF filenames, searches the specified folder for the files, and merges the selected PDFs into one output file.
 
-## Features
+### Features
 
-- Accepts multiple PDF filenames
-- Searches for the PDFs in a specified folder
-- Combines the PDFs into one file
-- Reports files that cannot be found
+* Accepts multiple PDF filenames
+* Searches a specified folder for the PDFs
+* Checks whether the files exist and have a `.pdf` extension
+* Combines multiple PDFs into one document
+* Reports files that could not be found
+* Saves the merged document as `combined files.pdf`
 
-## Requirements
+### What I Practiced
 
-- Python 3
-- pypdf
+* Python functions and loops
+* Conditional statements
+* User input and string manipulation
+* File and directory handling with `os`
+* File extensions and paths
+* Boolean flags
+* Exception/error-handling concepts
+* Using an external Python library
 
-## Installation
+### Technologies
 
-Install `pypdf` with:
-
-```bash
-pip install pypdf
+* Python
+* pypdf
+* os
